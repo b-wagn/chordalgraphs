@@ -1,4 +1,4 @@
-# chordalgraphs
+# Algorithms for Chordal Graphs
 This repository contains some algorithms for generating, recognizing, and solving problems on chordal graphs in Go.
 
 The following algorithms are contained:
@@ -25,9 +25,9 @@ Then check whether this is really a perfect elimination scheme (thereby checking
 cg := ChordalGraphFromGraphAndPES(graph, order)
 IsValid(cg)
 ``` 
-Run an algorithm on it, e.g. determine a max clique:
+Run an algorithm on it, e.g. determine (the leftmost vertex of) a maximum clique:
 ``` 
-v: IsValid(cg)
+v := Clique(cg)
 ```  
 
 
