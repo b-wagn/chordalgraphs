@@ -13,7 +13,7 @@ The following algorithms are contained:
 
 First, generate a random interval graph:
 ```
-graph := RandomIntervalGraphComplement(n,20*n,seed)
+graph := RandomIntervalGraph(n,20*n,seed)
 ```
 Then, run a LexBFS on it to determine a (candidate) perfect elimation scheme:
 ``` 
